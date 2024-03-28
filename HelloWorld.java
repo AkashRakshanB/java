@@ -11,7 +11,7 @@ public class HelloWorld {
 		for(int i=0;i<ch2.length;i++) {
 			for(int j=0;j<ch1.length;j++) {
 				System.out.print(output);
-				Thread.sleep(2500);
+				Thread.sleep(25);
 				System.out.println(ch1[j]);
 				if(ch2[i]==ch1[j]) {
 					output=output+ch2[i];
